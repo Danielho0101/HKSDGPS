@@ -1,5 +1,5 @@
-const btn1a = document.getElementById('btn1a');
-const btnOrange1a = btn1a.style.background = "orange";
+let btn1a = document.getElementById('btn1a');
+let btnOrange1a = btn1a.style.background = "orange";
 let i1a = 0;
 
 btn1a.addEventListener("click", function onClick(){
@@ -23,8 +23,8 @@ btn2a.addEventListener("click", function onClick(){
 } else if( i2a%2 == !0){
     btn2a.style.background = "BlueViolet";
 }
-});
 
+});
 const btn3a = document.getElementById('btn3a');
 const btnOrange3a = btn3a.style.background = "orange";
 let i3a = 0;
@@ -75,6 +75,7 @@ btn6a.addEventListener("click", function onClick(){
 } else if( i6a%2 == !0){
     btn6a.style.background = "BlueViolet";
 }
+
 });
 
 // Class B
