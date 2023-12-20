@@ -6,8 +6,12 @@ btn1a.addEventListener("click", function onClick(){
     i1a++;
     if ( i1a%2 == 0){
     btn1a.style.background = "orange";
+    btn1a.style.color = "white";
+    btn1a.style.borderColor = "red";
 } else if( i1a%2 == !0){
-    btn1a.style.background = "BlueViolet";
+    btn1a.style.background = "rgb(230, 204, 255)";
+    btn1a.style.color = "purple";
+    btn1a.style.borderColor = "purple";
 }
 
 });
@@ -20,8 +24,12 @@ btn2a.addEventListener("click", function onClick(){
     i2a++;
     if ( i2a%2 == 0){
     btn2a.style.background = "orange";
+    btn2a.style.color = "white";
+    btn2a.style.borderColor = "red";
 } else if( i2a%2 == !0){
-    btn2a.style.background = "BlueViolet";
+    btn2a.style.background = "rgb(230, 204, 255)";
+    btn2a.style.color = "purple";
+    btn2a.style.borderColor = "purple";
 }
 
 });
@@ -33,8 +41,12 @@ btn3a.addEventListener("click", function onClick(){
     i3a++;
     if ( i3a%2 == 0){
     btn3a.style.background = "orange";
+    btn3a.style.color = "white";
+    btn3a.style.borderColor = "red";
 } else if( i3a%2 == !0){
-    btn3a.style.background = "BlueViolet";
+    btn3a.style.background = "rgb(230, 204, 255)";
+    btn3a.style.color = "purple";
+    btn3a.style.borderColor = "purple";
 }
 });
 
@@ -46,8 +58,12 @@ btn4a.addEventListener("click", function onClick(){
     i4a++;
     if ( i4a%2 == 0){
     btn4a.style.background = "orange";
+    btn4a.style.color = "white";
+    btn4a.style.borderColor = "red";
 } else if( i4a%2 == !0){
-    btn4a.style.background = "BlueViolet";
+    btn4a.style.background = "rgb(230, 204, 255)";
+    btn4a.style.color = "purple";
+    btn4a.style.borderColor = "purple";
 }
 });
 
@@ -59,8 +75,12 @@ btn5a.addEventListener("click", function onClick(){
     i5a++;
     if ( i5a%2 == 0){
     btn5a.style.background = "orange";
+    btn5a.style.color = "white";
+    btn5a.style.borderColor = "red";
 } else if( i5a%2 == !0){
-    btn5a.style.background = "BlueViolet";
+    btn5a.style.background = "rgb(230, 204, 255)";
+    btn5a.style.color = "purple";
+    btn5a.style.borderColor = "purple";
 }
 });
 
@@ -72,8 +92,12 @@ btn6a.addEventListener("click", function onClick(){
     i6a++;
     if ( i6a%2 == 0){
     btn6a.style.background = "orange";
+    btn6a.style.color = "white";
+    btn6a.style.borderColor = "red";
 } else if( i6a%2 == !0){
-    btn6a.style.background = "BlueViolet";
+    btn6a.style.background = "rgb(230, 204, 255)";
+    btn6a.style.color = "purple";
+    btn6a.style.borderColor = "purple";
 }
 
 });
@@ -180,7 +204,7 @@ let i2c = 0;
 btn2c.addEventListener("click", function onClick(){
     i2c++;
     if ( i2c%2 == 0){
-    btn2b.style.background = "orange";
+    btn2c.style.background = "orange";
 } else if( i2c%2 == !0){
     btn2c.style.background = "BlueViolet";
 }
