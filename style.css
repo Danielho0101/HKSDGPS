@@ -1,45 +1,64 @@
-h1{
-    text-align: center;
-    /* padding: 1rem; */
+h2.green {
+  text-align: center;
+  color: green;
+  letter-spacing: 0.5cm;
+  font-size: 100px;
 }
 
-.col{
-    margin: 100px 1px;
-    padding: 10px;
-    /* border: 5px solid red; */
+.col {
+  border-right: 5px solid black;
 }
 
-.orange{
-    background-color: orange;
-    writing-mode: vertical-lr;
-    color: white;
-    border: 2px solid red;
-    border-radius: 10%;
-
+.row {
+  background-color: rgb(243, 243, 166);
 }
 
-.purple{
-    border: 2px solid purple;
-    background-color: rgb(230, 204, 255);
-    writing-mode: vertical-lr;
-    color: rgb(137, 34, 233);
-    border-radius: 10%;
-    
+.bgcolor {
+  background-color: rgb(243, 243, 166);
+}
+html {
+  background-color: rgb(243, 243, 166);
 }
 
-.row{
-    background-color: rgb(243, 243, 166);
+.btnCSS {
+  border: 4px solid red;
+  border-radius: 15%;
+  color: white;
+  padding: 2rem;
+  margin: 10px;
 }
 
-.bgcolor{
-    background-color:rgb(243, 243, 166);
-}
-html{
-    background-color: rgb(243, 243, 166);
+.vertical-orange {
+  position: fixed;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  background-color: orange;
+  color: white;
+  border: 5px solid red;
+  border-radius: 10%;
+  padding: 0.5rem;
+  margin-top: 5rem;
+  letter-spacing: 0.3cm;
 }
 
-.btnCSS{
-    border:2px solid red;
-    border-radius: 15%;
-    color:white ;
+.vertical-purple {
+  position: fixed;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  border: 5px solid rgb(145, 107, 242);
+  background-color: rgb(230, 204, 255);
+  color: purple;
+  border-radius: 10%;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  letter-spacing: 0.3cm;
+}
+
+.vertical-green {
+  position: fixed;
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  color: green;
+  letter-spacing: 0.4cm;
+  font-size: 4rem;
 }

@@ -11,7 +11,7 @@ btn1a.addEventListener("click", function onClick(){
 } else if( i1a%2 == !0){
     btn1a.style.background = "rgb(230, 204, 255)";
     btn1a.style.color = "purple";
-    btn1a.style.borderColor = "purple";
+    btn1a.style.borderColor = "rgb(145, 107, 242)";
 }
 
 });
@@ -29,7 +29,7 @@ btn2a.addEventListener("click", function onClick(){
 } else if( i2a%2 == !0){
     btn2a.style.background = "rgb(230, 204, 255)";
     btn2a.style.color = "purple";
-    btn2a.style.borderColor = "purple";
+    btn2a.style.borderColor = "rgb(145, 107, 242)";
 }
 
 });
@@ -46,7 +46,7 @@ btn3a.addEventListener("click", function onClick(){
 } else if( i3a%2 == !0){
     btn3a.style.background = "rgb(230, 204, 255)";
     btn3a.style.color = "purple";
-    btn3a.style.borderColor = "purple";
+    btn3a.style.borderColor = "rgb(145, 107, 242)";
 }
 });
 
@@ -63,7 +63,7 @@ btn4a.addEventListener("click", function onClick(){
 } else if( i4a%2 == !0){
     btn4a.style.background = "rgb(230, 204, 255)";
     btn4a.style.color = "purple";
-    btn4a.style.borderColor = "purple";
+    btn4a.style.borderColor = "rgb(145, 107, 242)";
 }
 });
 
@@ -80,7 +80,7 @@ btn5a.addEventListener("click", function onClick(){
 } else if( i5a%2 == !0){
     btn5a.style.background = "rgb(230, 204, 255)";
     btn5a.style.color = "purple";
-    btn5a.style.borderColor = "purple";
+    btn5a.style.borderColor = "rgb(145, 107, 242)";
 }
 });
 
@@ -97,7 +97,7 @@ btn6a.addEventListener("click", function onClick(){
 } else if( i6a%2 == !0){
     btn6a.style.background = "rgb(230, 204, 255)";
     btn6a.style.color = "purple";
-    btn6a.style.borderColor = "purple";
+    btn6a.style.borderColor = "rgb(145, 107, 242)";
 }
 
 });
@@ -111,10 +111,13 @@ btn1b.addEventListener("click", function onClick(){
     i1b++;
     if ( i1b%2 == 0){
     btn1b.style.background = "orange";
+    btn1b.style.color = "white";
+    btn1b.style.borderColor = "red";
 } else if( i1b%2 == !0){
-    btn1b.style.background = "BlueViolet";
+    btn1b.style.background = "rgb(230, 204, 255)";
+    btn1b.style.color = "purple";
+    btn1b.style.borderColor = "rgb(145, 107, 242)";
 }
-
 });
 
 const btn2b = document.getElementById('btn2b');
@@ -125,8 +128,12 @@ btn2b.addEventListener("click", function onClick(){
     i2b++;
     if ( i2b%2 == 0){
     btn2b.style.background = "orange";
+    btn2b.style.color = "white";
+    btn2b.style.borderColor = "red";
 } else if( i2b%2 == !0){
-    btn2b.style.background = "BlueViolet";
+    btn2b.style.background = "rgb(230, 204, 255)";
+    btn2b.style.color = "purple";
+    btn2b.style.borderColor = "rgb(145, 107, 242)";
 }
 });
 
@@ -138,8 +145,12 @@ btn3b.addEventListener("click", function onClick(){
     i3b++;
     if ( i3b%2 == 0){
     btn3b.style.background = "orange";
+    btn3b.style.color = "white";
+    btn3b.style.borderColor = "red";
 } else if( i3b%2 == !0){
-    btn3b.style.background = "BlueViolet";
+    btn3b.style.background = "rgb(230, 204, 255)";
+    btn3b.style.color = "purple";
+    btn3b.style.borderColor = "rgb(145, 107, 242)";
 }
 });
 
@@ -151,8 +162,12 @@ btn4b.addEventListener("click", function onClick(){
     i4b++;
     if ( i4b%2 == 0){
     btn4b.style.background = "orange";
+    btn4b.style.color = "white";
+    btn4b.style.borderColor = "red";
 } else if( i4b%2 == !0){
-    btn4b.style.background = "BlueViolet";
+    btn4b.style.background = "rgb(230, 204, 255)";
+    btn4b.style.color = "purple";
+    btn4b.style.borderColor = "rgb(145, 107, 242)";
 }
 });
 
@@ -164,8 +179,12 @@ btn5b.addEventListener("click", function onClick(){
     i5b++;
     if ( i5b%2 == 0){
     btn5b.style.background = "orange";
+    btn5b.style.color = "white";
+    btn5b.style.borderColor = "red";
 } else if( i5b%2 == !0){
-    btn5b.style.background = "BlueViolet";
+    btn5b.style.background = "rgb(230, 204, 255)";
+    btn5b.style.color = "purple";
+    btn5b.style.borderColor = "rgb(145, 107, 242)";
 }
 });
 
@@ -177,8 +196,12 @@ btn6b.addEventListener("click", function onClick(){
     i6b++;
     if ( i6b%2 == 0){
     btn6b.style.background = "orange";
+    btn6b.style.color = "white";
+    btn6b.style.borderColor = "red";
 } else if( i6b%2 == !0){
-    btn6b.style.background = "BlueViolet";
+    btn6b.style.background = "rgb(230, 204, 255)";
+    btn6b.style.color = "purple";
+    btn6b.style.borderColor = "rgb(145, 107, 242)";
 }
 });
 
@@ -191,8 +214,12 @@ btn1c.addEventListener("click", function onClick(){
     i1c++;
     if ( i1c%2 == 0){
     btn1c.style.background = "orange";
+    btn1c.style.color = "white";
+    btn1c.style.borderColor = "red";
 } else if( i1c%2 == !0){
-    btn1c.style.background = "BlueViolet";
+    btn1c.style.background = "rgb(230, 204, 255)";
+    btn1c.style.color = "purple";
+    btn1c.style.borderColor = "rgb(145, 107, 242)";
 }
 
 });
@@ -205,8 +232,12 @@ btn2c.addEventListener("click", function onClick(){
     i2c++;
     if ( i2c%2 == 0){
     btn2c.style.background = "orange";
+    btn2c.style.color = "white";
+    btn2c.style.borderColor = "red";
 } else if( i2c%2 == !0){
-    btn2c.style.background = "BlueViolet";
+    btn2c.style.background = "rgb(230, 204, 255)";
+    btn2c.style.color = "purple";
+    btn2c.style.borderColor = "rgb(145, 107, 242)";
 }
 });
 
@@ -218,8 +249,12 @@ btn3c.addEventListener("click", function onClick(){
     i3c++;
     if ( i3c%2 == 0){
     btn3c.style.background = "orange";
+    btn3c.style.color = "white";
+    btn3c.style.borderColor = "red";
 } else if( i3c%2 == !0){
-    btn3c.style.background = "BlueViolet";
+    btn3c.style.background = "rgb(230, 204, 255)";
+    btn3c.style.color = "purple";
+    btn3c.style.borderColor = "rgb(145, 107, 242)";
 }
 });
 
@@ -231,8 +266,12 @@ btn4c.addEventListener("click", function onClick(){
     i4c++;
     if ( i4c%2 == 0){
     btn4c.style.background = "orange";
+    btn4c.style.color = "white";
+    btn4c.style.borderColor = "red";
 } else if( i4c%2 == !0){
-    btn4c.style.background = "BlueViolet";
+    btn4c.style.background = "rgb(230, 204, 255)";
+    btn4c.style.color = "purple";
+    btn4c.style.borderColor = "rgb(145, 107, 242)";
 }
 });
 
@@ -244,8 +283,12 @@ btn5c.addEventListener("click", function onClick(){
     i5c++;
     if ( i5c%2 == 0){
     btn5c.style.background = "orange";
+    btn5c.style.color = "white";
+    btn5c.style.borderColor = "red";
 } else if( i5c%2 == !0){
-    btn5c.style.background = "BlueViolet";
+    btn5c.style.background = "rgb(230, 204, 255)";
+    btn5c.style.color = "purple";
+    btn5c.style.borderColor = "rgb(145, 107, 242)";
 }
 });
 
@@ -257,8 +300,12 @@ btn6c.addEventListener("click", function onClick(){
     i6c++;
     if ( i6c%2 == 0){
     btn6c.style.background = "orange";
+    btn6c.style.color = "white";
+    btn6c.style.borderColor = "red";
 } else if( i6c%2 == !0){
-    btn6c.style.background = "BlueViolet";
+    btn6c.style.background = "rgb(230, 204, 255)";
+    btn6c.style.color = "purple";
+    btn6c.style.borderColor = "rgb(145, 107, 242)";
 }
 });
 
@@ -271,8 +318,12 @@ btn1d.addEventListener("click", function onClick(){
     i1d++;
     if ( i1d%2 == 0){
     btn1d.style.background = "orange";
+    btn1d.style.color = "white";
+    btn1d.style.borderColor = "red";
 } else if( i1d%2 == !0){
-    btn1d.style.background = "BlueViolet";
+    btn1d.style.background = "rgb(230, 204, 255)";
+    btn1d.style.color = "purple";
+    btn1d.style.borderColor = "rgb(145, 107, 242)";
 }
 
 });
@@ -285,8 +336,12 @@ btn2d.addEventListener("click", function onClick(){
     i2d++;
     if ( i2d%2 == 0){
     btn2d.style.background = "orange";
+    btn2d.style.color = "white";
+    btn2d.style.borderColor = "red";
 } else if( i2d%2 == !0){
-    btn2d.style.background = "BlueViolet";
+    btn2d.style.background = "rgb(230, 204, 255)";
+    btn2d.style.color = "purple";
+    btn2d.style.borderColor = "rgb(145, 107, 242)";
 }
 });
 
@@ -298,8 +353,12 @@ btn3d.addEventListener("click", function onClick(){
     i3d++;
     if ( i3d%2 == 0){
     btn3d.style.background = "orange";
+    btn3d.style.color = "white";
+    btn3d.style.borderColor = "red";
 } else if( i3d%2 == !0){
-    btn3d.style.background = "BlueViolet";
+    btn3d.style.background = "rgb(230, 204, 255)";
+    btn3d.style.color = "purple";
+    btn3d.style.borderColor = "rgb(145, 107, 242)";
 }
 });
 
@@ -311,8 +370,12 @@ btn4d.addEventListener("click", function onClick(){
     i4d++;
     if ( i4d%2 == 0){
     btn4d.style.background = "orange";
+    btn4d.style.color = "white";
+    btn4d.style.borderColor = "red";
 } else if( i4d%2 == !0){
-    btn4d.style.background = "BlueViolet";
+    btn4d.style.background = "rgb(230, 204, 255)";
+    btn4d.style.color = "purple";
+    btn4d.style.borderColor = "rgb(145, 107, 242)";
 }
 });
 
@@ -324,8 +387,12 @@ btn5d.addEventListener("click", function onClick(){
     i5d++;
     if ( i5d%2 == 0){
     btn5d.style.background = "orange";
+    btn5d.style.color = "white";
+    btn5d.style.borderColor = "red";
 } else if( i5d%2 == !0){
-    btn5d.style.background = "BlueViolet";
+    btn5d.style.background = "rgb(230, 204, 255)";
+    btn5d.style.color = "purple";
+    btn5d.style.borderColor = "rgb(145, 107, 242)";
 }
 });
 
@@ -337,45 +404,11 @@ btn6d.addEventListener("click", function onClick(){
     i6d++;
     if ( i6d%2 == 0){
     btn6d.style.background = "orange";
+    btn6d.style.color = "white";
+    btn6d.style.borderColor = "red";
 } else if( i6d%2 == !0){
-    btn6d.style.background = "BlueViolet";
+    btn6d.style.background = "rgb(230, 204, 255)";
+    btn6d.style.color = "purple";
+    btn6d.style.borderColor = "rgb(145, 107, 242)";
 }
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// function changeBackground(color){
-//   var elements = document.getElementsByClassName("btn")
-//       for (var i = 0; i < elements.length; i++) {
-//           elements[i].style.background = color;
-//       }
-//       return;
-// }
-
-// changeBackground("orange");
-
