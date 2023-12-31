@@ -62,3 +62,31 @@ html {
   letter-spacing: 0.4cm;
   font-size: 4rem;
 }
+
+.scale-up-center {
+	-webkit-animation: scale-up-center 1.5s cubic-bezier(0.190, 0.575, 0.565, 1.000) 5 alternate both;
+	        animation: scale-up-center 1.5s cubic-bezier(0.190, 0.575, 0.565, 1.000) 5 alternate both;
+}
+
+
+ @-webkit-keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(1.1);
+              transform: scale(1.1);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  @keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(1.1);
+              transform: scale(1.1);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  
