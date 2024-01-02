@@ -5,8 +5,13 @@ h2.green {
   font-size: 100px;
 }
 
+h1{
+  font-size: 60px !important;
+}
+
 .col {
   border-right: 5px solid black;
+  color: red;
 }
 
 .row {
@@ -24,12 +29,14 @@ html {
   border: 4px solid red;
   border-radius: 15%;
   color: white;
-  padding: 2rem;
+  padding: 2.5rem;
   margin: 10px;
 }
 
 .vertical-orange {
   position: fixed;
+  right:68px;
+  top:14rem;
   writing-mode: vertical-rl;
   text-orientation: upright;
   background-color: orange;
@@ -43,6 +50,8 @@ html {
 
 .vertical-purple {
   position: fixed;
+  right:68px;
+  top:0px;
   writing-mode: vertical-rl;
   text-orientation: upright;
   border: 5px solid rgb(145, 107, 242);
@@ -56,9 +65,11 @@ html {
 
 .vertical-green {
   position: fixed;
+  right:1px;
+  top:10px;
   writing-mode: vertical-lr;
   text-orientation: upright;
-  color: green;
+  color: rgb(18, 141, 18);
   letter-spacing: 0.4cm;
   font-size: 4rem;
 }
@@ -71,8 +82,8 @@ html {
 
  @-webkit-keyframes scale-up-center {
     0% {
-      -webkit-transform: scale(1.1);
-              transform: scale(1.1);
+      -webkit-transform: scale(1.3);
+              transform: scale(1.3);
     }
     100% {
       -webkit-transform: scale(1);
@@ -81,8 +92,8 @@ html {
   }
   @keyframes scale-up-center {
     0% {
-      -webkit-transform: scale(1.1);
-              transform: scale(1.1);
+      -webkit-transform: scale(1.3);
+              transform: scale(1.3);
     }
     100% {
       -webkit-transform: scale(1);

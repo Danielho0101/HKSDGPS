@@ -3,23 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
-    <style>
-        h2.green {
+<style>
+  h2.green {
   text-align: center;
   color: green;
   letter-spacing: 0.5cm;
   font-size: 100px;
 }
 
+h1{
+  font-size: 60px !important;
+}
+
 .col {
   border-right: 5px solid black;
+  color: red;
 }
 
 .row {
@@ -37,12 +41,16 @@ html {
   border: 4px solid red;
   border-radius: 15%;
   color: white;
-  padding: 2rem;
+  padding: 2.5rem;
   margin: 10px;
 }
 
 .vertical-orange {
   position: fixed;
+  /* right:148px; */
+  right:148px;
+  top:200px;
+  /* top:0.875rem; */
   writing-mode: vertical-rl;
   text-orientation: upright;
   background-color: orange;
@@ -56,6 +64,8 @@ html {
 
 .vertical-purple {
   position: fixed;
+  right:148px;
+  top:0px;
   writing-mode: vertical-rl;
   text-orientation: upright;
   border: 5px solid rgb(145, 107, 242);
@@ -69,9 +79,11 @@ html {
 
 .vertical-green {
   position: fixed;
+  right:68px;
+  top:10px;
   writing-mode: vertical-lr;
   text-orientation: upright;
-  color: green;
+  color: rgb(18, 141, 18);
   letter-spacing: 0.4cm;
   font-size: 4rem;
 }
@@ -84,8 +96,8 @@ html {
 
  @-webkit-keyframes scale-up-center {
     0% {
-      -webkit-transform: scale(1.1);
-              transform: scale(1.1);
+      -webkit-transform: scale(1.3);
+              transform: scale(1.3);
     }
     100% {
       -webkit-transform: scale(1);
@@ -94,8 +106,8 @@ html {
   }
   @keyframes scale-up-center {
     0% {
-      -webkit-transform: scale(1.1);
-              transform: scale(1.1);
+      -webkit-transform: scale(1.3);
+              transform: scale(1.3);
     }
     100% {
       -webkit-transform: scale(1);
@@ -103,7 +115,7 @@ html {
     }
   }
   
-    </style>
+</style>
     <title>放學</title>
   </head>
     <div class="bgcolor">
@@ -111,7 +123,7 @@ html {
           <!-- A Class -->
         <div class="row">
           <div class="col">
-            <button id="btn1a" class="btnCSS" onclick="clickF()"><h1>1A</h1></button>
+            <button id="btn1a" class="btnCSS"><h1>1A</h1></button>
           </div>
           <div class="col">
             <button id="btn2a" class="btnCSS"><h1>2A</h1></button>
@@ -223,7 +235,7 @@ html {
   <script>
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-    crossorigin="anonymous"
+    crossorigin="anonymous";
 
     let btn1a = document.getElementById('btn1a');
 let btnOrange1a = btn1a.style.background = "orange";
@@ -235,6 +247,7 @@ btn1a.addEventListener("click", function onClick(){
     btn1a.style.background = "orange";
     btn1a.style.color = "white";
     btn1a.style.borderColor = "red";
+    btn1a.style.fontSize = "1000px";
     btn1a.classList.remove('scale-up-center');
 
 } else if( i1a%2 == !0){
@@ -695,7 +708,7 @@ btn6d.addEventListener("click", function onClick(){
 }
 });
 
-
   </script>
+
 
 </html>
