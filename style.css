@@ -2,41 +2,53 @@ h2.green {
   text-align: center;
   color: green;
   letter-spacing: 0.5cm;
-  font-size: 100px;
+  font-size: 10px;
 }
 
 h1{
-  font-size: 60px !important;
+  /* font-size:840% !important; */
+  font-size:1000% !important;
 }
 
 .col {
-  border-right: 5px solid black;
+  /* border-right: 5px solid black; */
   color: red;
+  /* padding: 2rem; */
+
 }
 
 .row {
   background-color: rgb(243, 243, 166);
+  /* border: 1px solid black; */
+  position: relative;
+  right: 8rem;
+  top: 5rem;
+}
+
+.container{
+  max-width: 1700px !important;
 }
 
 .bgcolor {
   background-color: rgb(243, 243, 166);
+  z-index: -1;
 }
 html {
   background-color: rgb(243, 243, 166);
+  z-index: -1;
 }
 
 .btnCSS {
   border: 4px solid red;
   border-radius: 15%;
   color: white;
-  padding: 2.5rem;
   margin: 10px;
 }
 
 .vertical-orange {
   position: fixed;
-  right:68px;
-  top:14rem;
+  right:130px;
+  top:23rem;
   writing-mode: vertical-rl;
   text-orientation: upright;
   background-color: orange;
@@ -46,12 +58,14 @@ html {
   padding: 0.5rem;
   margin-top: 5rem;
   letter-spacing: 0.3cm;
+  font-size: 5.5rem;
+  z-index: 1;
 }
 
 .vertical-purple {
   position: fixed;
-  right:68px;
-  top:0px;
+  right:130px;
+  top:4.5rem;
   writing-mode: vertical-rl;
   text-orientation: upright;
   border: 5px solid rgb(145, 107, 242);
@@ -61,17 +75,20 @@ html {
   padding: 0.5rem;
   margin-top: 1rem;
   letter-spacing: 0.3cm;
+  font-size: 5.5rem;
+  z-index: 1;
 }
 
 .vertical-green {
   position: fixed;
-  right:1px;
-  top:10px;
+  right:1rem;
+  top:4.5rem;
   writing-mode: vertical-lr;
   text-orientation: upright;
   color: rgb(18, 141, 18);
   letter-spacing: 0.4cm;
-  font-size: 4rem;
+  font-size: 5.5rem;
+  font-weight: bolder;
 }
 
 .scale-up-center {
